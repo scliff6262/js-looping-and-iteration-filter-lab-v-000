@@ -7,5 +7,6 @@ function fuzzyMatch(drivers, string){
 }
 
 function matchName(drivers, string){
-  const filtered = findMatching(drivers,string)
+  const filtered = drivers.filter(function(driver){return driver.name === string})
+  
 }
