@@ -3,5 +3,5 @@ function findMatching(drivers, string){
 }
 
 function fuzzyMatch(drivers, string){
-  return drivers.filter(function(driver){return driver.toLowerCase()
+  return drivers.filter(function(driver){return driver.toLowerCase()}
 }
